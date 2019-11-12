@@ -13,6 +13,7 @@ let createTray = () => {
 }
 
 let setMenu = () => {
+  if(process.platform !== 'win32') return
   app.setUserTasks([
     {
       program: process.execPath,

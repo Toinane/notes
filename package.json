@@ -1,6 +1,6 @@
 {
   "name": "notes",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Sticky Note application",
   "main": "src/main.js",
   "repository": "git@github.com:Toinane/notes.git",
@@ -10,9 +10,9 @@
     "start": "electron src/main.js"
   },
   "dependencies": {
-    "electron-json-storage": "^4.1.5"
+    "electron-json-storage": "^4.1.8"
   },
   "devDependencies": {
-    "electron": "^4.0.1"
+    "electron": "^7.1.1"
   }
 }
