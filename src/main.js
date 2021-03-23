@@ -50,7 +50,7 @@ app.on('ready', () => {
 * [App activate - On app icon clicked]
 */
 app.on('activate', () => {
-  colorpicker.init()
+
 })
 
 /**
